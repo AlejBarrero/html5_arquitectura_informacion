@@ -8,27 +8,46 @@
 </head>
 <body>
     <header>
-        <img src="./assets/img/banner.jpeg" alt="Imagen de gente haciendo ejercicio" title="Bienvenido a nuestro gimnasio" width="75%" height="auto">
+        <img src="./assets/img/banner.jpeg" alt="Imagen de gente haciendo ejercicio" title="Bienvenido a nuestro gimnasio" width="75%" height="auto" style="display: block; margin: 0 auto;">
     </header>
     <h1 style="text-align: center">GIMNASIO FITNESS360</h1>
     <nav class="menu">
         <ul style="list-style-type: none; text-align: center">
-            <li style="display: inline; padding:20px;"><a href="/">Inicio</a></li>
-            <li style="display: inline; padding:20px"><a href="/">Nosotros / Quiénes somos</a></li>
-            <li style="display: inline; padding:20px"><a href="/">Servicios</a></li>
-            <li style="display: inline; padding:20px"><a href="/">Planes y Precios</a></li>
+            <li style="display: inline; padding:20px;"><a href="#">Inicio</a></li>
+            <li style="display: inline; padding:20px"><a href="#">Nosotros / Quiénes somos</a></li>
+            <li style="display: inline; padding:20px"><a href="#">Servicios</a></li>
+            <li style="display: inline; padding:20px"><a href="#">Planes y Precios</a></li>
         </ul>
     </nav>
     <main>
-        <h2 style="text-align: center">Transforma tu cuerpo, fortalece tu mente</h2>
-        <blockquote text-align: center>"El éxito es la suma de pequeños esfuerzos repetidos día tras día."
-            — Robert Collier</blockquote>
+        <section>
+            <h2 style="text-align: center">Transforma tu cuerpo, fortalece tu mente</h2>
+            <blockquote style="text-align: center">"El éxito es la suma de pequeños esfuerzos repetidos día tras día."— Robert Collier
+            </blockquote>
+        </section>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Formulario de contacto</legend>
+                    <label for="nombre" style="padding: 15px">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    <label for="email" style="padding: 15px">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Tu email" required>
+                    <label for="asunto" style="padding: 15px">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" placeholder="Asunto">
+                    <label for="mensaje" style="padding: 15px">Mensaje:</label>
+                    <textarea id="comentarios" name="comentarios" rows="1" cols="40" placeholder="Escribe tu comentario aquí"></textarea>
+                </fieldset>
+                <button style="margin-top: 10px; margin-left: 20px;">Enviar Formulario</button>
+            </form>
+        </section>
     </main>
     <footer>
-            <p><strong>Teléfono:</strong> 666555444</p>
-            <p><strong>Email:</strong> fitness360@correo.com</p>
-            <p><strong>Ubicación:</strong> Polígono Inventado, Calle 4, Nave 18</p>
-            <p>©2024. All rights reserved. <em>Designed by Alejandro Barrero</em></p>
+        <h3>INFORMACIÓN DE CONTACTO</h3>
+        <p><strong>Teléfono:</strong> 666555444</p>
+        <p><strong>Email:</strong> fitness360@correo.com</p>
+        <p><strong>Ubicación:</strong> Polígono Inventado, Calle 4, Nave 18</p>
+        <p>©2024. All rights reserved. <em>Designed by Alejandro Barrero</em></p>
         <ul>
             <li style="padding: 10px"><img src="./assets/img/facebook.png" alt="Logo Facebook" width="25px"><a href="/">Facebook</a></li>
             <li style="padding: 10px"><img src="./assets/img/twitter.png" alt="Logo Twitter(X)" width="25px"><a href="/">X</a></li>
